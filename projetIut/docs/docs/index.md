@@ -40,3 +40,7 @@ Pour un portage iOS il est necessaire de posséder :
 - XCode - compilateur Mac qui génère des programmes qui fonctionnentsur le système iOS.
 - GoogleMaps - Générer une clé d'API spécifique pour iOS. Cliquer [ici](https://developers.google.com/maps/documentation/ios-sdk/intro) pour plus d'informations.
 - Audio - Ajouter le format audio compatible avec iOS.
+
+## Accès aux parties
+Lien vers la partie fonctionnelle [ici](fonctionnelle.md).   
+Lien vers la partie technique [ici](technique.md).

@@ -1,0 +1,7 @@
+site_name: Documentation Checkpoint
+nav:
+    - Accueil: index.md
+    - Partie Fonctionnelle : fonctionnelle.md
+    - Partie Technique: technique.md
+    
+theme: cinder

@@ -6,6 +6,8 @@ Cette partie présente les différentes fonctionnalités disponible dans l'appli
 
 ### La page d'accueil
 
+<img src="../img/001.jpg" width=30% />
+
 La page d'accueil contient un bouton central de grande dimension permettant à l'utilisateur de l'utiliser même lorsqu'il conduit.
 Ce bouton appelle plusieurs fonctions permettant de récupérer les données nécessaire à la création d'un point d'intêret.
 
@@ -50,6 +52,8 @@ Permet de jouer un son local à la fin des enregistrements des points d'intérê
 
 ### La page des repères
 
+<img src="../img/002.png" width=30% />
+
 La page des repères permet de lister les points d'intérêt. Il est aussi possible de voir les points sur une carte globale.
 
 *Les méthodes :*
@@ -74,6 +78,8 @@ Permet d'ouvrir la carte globale.
 
 ### La page carte globale
 
+<img src="../img/003.png" width=30% />
+
 Cette page permet d'afficher la carte globale contenant tous les points lié aux points d'intérêt.
 
 - **Constructeur** :   
@@ -91,8 +97,9 @@ Cette méthode permet d'ajouter les points sur la carte globale. La liste des re
 - **deleteMarkers()** :   
 Permet de supprimé les points sur la carte globale.
 
-
 ### La page d'information d'un repère
+
+<img src="../img/004.png" width=30% />
 
 Cette page permet d'afficher les informations relatif au point d'intérêt.
 
@@ -154,8 +161,9 @@ La recherche sur instagram n'a pas pu être implémenté car leur service d'api 
 
 ### La page paramètres
 
-Cette page permet d'activer ou désactiver la prise de photo et d'audio et supprimer la base donnée.
+<img src="../img/006.png" width=30%"/>
 
+Cette page permet d'activer ou désactiver la prise de photo et d'audio et supprimer la base donnée.
 - **Constructeur** :   
 Permet d'initialisé les paramètres des modules. On récupère les valeurs des options de prise de photo et d'audio.
 

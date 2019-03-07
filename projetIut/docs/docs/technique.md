@@ -1,3 +1,6 @@
+Lien vers la partie présentation [ici](index.md).   
+Lien vers la partie fonctionnelle [ici](technique.md).
+##
 # Partie technique de l'application Checkpoint
 
 ## Modules

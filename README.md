@@ -6,3 +6,4 @@ Le but de ce projet est de développer une application mobile pour conducteurs l
 
 ## Documentation
 Une [documentation](projetIut/docs/docs/index.md) complète est présente dans le dossier docs.
+Un [diagramme de Gantt](gantt) permet de suivre le déroulé du projet.

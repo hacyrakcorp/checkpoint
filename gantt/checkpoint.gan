@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-09-10" view-index="0" gantt-divider-location="1256" resource-divider-location="542" version="2.8.4" locale="fr">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="751" order="0"/>
+        <field id="tpd4" name="Date de début" width="258" order="1"/>
+        <field id="tpd5" name="Date de fin" width="244" order="2"/>
+        <timeline><![CDATA[114,111]]></timeline>
+        <option id="color.recent"><![CDATA[#ff0000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="332" order="0"/>
+        <field id="1" name="Rôle par défaut" width="207" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="24" name="Durée du projet" color="#ff0000" meeting="false" start="2018-10-03" duration="116" complete="0" expand="true"/>
+        <task id="5" name="Mise en place du projet" meeting="false" start="2018-10-03" duration="9" complete="0" expand="false">
+            <task id="6" name="Installer Ionic" color="#8cb6ce" meeting="false" start="2018-10-03" duration="3" complete="0" expand="true"/>
+            <task id="7" name="Mettre en place GitHub" color="#8cb6ce" meeting="false" start="2018-10-08" duration="1" complete="0" expand="true"/>
+            <task id="8" name="Définir les fonctionnalitées" color="#8cb6ce" meeting="false" start="2018-10-08" duration="6" complete="0" expand="true"/>
+        </task>
+        <task id="40" name="Interface graphique" meeting="false" start="2018-10-17" duration="99" complete="0" expand="false">
+            <task id="41" name="Bouton" color="#8cb6ce" meeting="false" start="2018-10-17" duration="7" complete="0" expand="true">
+                <notes><![CDATA[Mise en place du projet commun.
+Création de la page principale (bouton central).
+Apprentissage ionic]]></notes>
+            </task>
+            <task id="43" name="Liste de repères" color="#8cb6ce" meeting="false" start="2018-10-31" duration="9" complete="0" expand="true"/>
+            <task id="46" name="Info repère" color="#8cb6ce" meeting="false" start="2018-11-26" duration="11" complete="0" expand="true"/>
+            <task id="45" name="Carte" color="#8cb6ce" meeting="false" start="2019-02-04" duration="6" complete="0" expand="true"/>
+            <task id="44" name="Paramètres" color="#8cb6ce" meeting="false" start="2018-11-26" duration="16" complete="0" expand="true"/>
+            <task id="146" name="Vue satellite" color="#8cb6ce" meeting="false" start="2019-01-28" duration="6" complete="0" expand="true"/>
+            <task id="147" name="Street view" color="#8cb6ce" meeting="false" start="2019-02-04" duration="21" complete="0" expand="true"/>
+        </task>
+        <task id="26" name="Audio" meeting="false" start="2018-10-15" duration="104" complete="0" expand="true">
+            <task id="53" name="Enregistrement d'une note audio" color="#8cb6ce" meeting="false" start="2018-10-15" duration="21" complete="0" expand="true"/>
+            <task id="108" name="Enregistrement audio (max 30)" color="#8cb6ce" meeting="false" start="2019-01-07" duration="11" complete="0" expand="true"/>
+            <task id="99" name="Ecouter le commentaire audio" color="#8cb6ce" meeting="false" start="2018-12-17" duration="16" complete="0" expand="true"/>
+            <task id="111" name="Ajouter audio dans bdd" color="#8cb6ce" meeting="false" start="2019-01-07" duration="11" complete="0" expand="true"/>
+            <task id="131" name="Créer une option pour prendre ou pas l'audio" color="#8cb6ce" meeting="false" start="2019-01-21" duration="6" complete="0" expand="true"/>
+            <task id="162" name="Ajout d'un double click si option audio" color="#8cb6ce" meeting="false" start="2019-02-25" duration="6" complete="0" expand="true"/>
+            <task id="164" name="Ajout d'un son en fin d'enregistrement d'un repère" color="#8cb6ce" meeting="false" start="2019-03-04" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="32" name="Photo" meeting="false" start="2018-10-15" duration="76" complete="0" expand="false">
+            <task id="47" name="Prendre une photo" color="#8cb6ce" meeting="false" start="2018-10-15" duration="11" complete="0" expand="true"/>
+            <task id="91" name="Ajouter la photo en blob dans la bdd" color="#8cb6ce" meeting="false" start="2018-11-26" duration="16" complete="0" expand="true"/>
+            <task id="114" name="Ajouter la photo en base64 dans la bdd" color="#8cb6ce" meeting="false" start="2019-01-07" duration="11" complete="0" expand="true"/>
+            <task id="116" name="Voir la photo sur le repère" color="#8cb6ce" meeting="false" start="2019-01-07" duration="11" complete="0" expand="true"/>
+            <task id="130" name="Créer une option pour prendre ou pas la photo" color="#8cb6ce" meeting="false" start="2019-01-21" duration="6" complete="0" expand="true"/>
+        </task>
+        <task id="33" name="GPS" meeting="false" start="2018-10-15" duration="86" complete="0" expand="false">
+            <task id="38" name="Récupérer les coordonnées gps" color="#8cb6ce" meeting="false" start="2018-10-15" duration="71" complete="0" expand="true"/>
+            <task id="102" name="Ajouter coordonnées dans la bdd" color="#8cb6ce" meeting="false" start="2019-01-07" duration="11" complete="0" expand="true"/>
+            <task id="106" name="Voir un point sur une carte" color="#8cb6ce" meeting="false" start="2019-01-07" duration="11" complete="0" expand="true"/>
+            <task id="70" name="Visualiser tous les points sur une carte" color="#8cb6ce" meeting="false" start="2018-10-29" duration="76" complete="0" expand="true"/>
+            <task id="144" name="Modification des coordonnées sur le repère" color="#8cb6ce" meeting="false" start="2019-01-28" duration="11" complete="0" expand="true"/>
+        </task>
+        <task id="34" name="Base de données" meeting="false" start="2018-10-29" duration="71" complete="0" expand="false">
+            <task id="67" name="Création du schéma" color="#8cb6ce" meeting="false" start="2018-10-29" duration="11" complete="0" expand="true"/>
+            <task id="78" name="Consulter la liste des repères" color="#8cb6ce" meeting="false" start="2018-11-12" duration="11" complete="0" expand="true"/>
+            <task id="83" name="Ajouter un repère" color="#8cb6ce" meeting="false" start="2018-11-12" duration="11" complete="0" expand="true"/>
+            <task id="82" name="Modifier un repère" color="#8cb6ce" meeting="false" start="2018-11-12" duration="56" complete="0" expand="true"/>
+            <task id="81" name="Supprimer un repère" color="#8cb6ce" meeting="false" start="2018-11-12" duration="61" complete="0" expand="true"/>
+            <task id="125" name="Vider la base de données" color="#8cb6ce" meeting="false" start="2019-01-21" duration="6" complete="0" expand="true"/>
+            <task id="135" name="Modifier repère pour ajouter commentaire écrit" color="#8cb6ce" meeting="false" start="2019-01-21" duration="6" complete="0" expand="true"/>
+            <task id="136" name="Ajout d'une table catégorie" color="#8cb6ce" meeting="false" start="2019-01-21" duration="6" complete="0" expand="true"/>
+            <task id="137" name="Attribuer une catégorie à un point" color="#8cb6ce" meeting="false" start="2019-01-21" duration="6" complete="0" expand="true"/>
+            <task id="150" name="Trier les repères (nom, catégorie, date)" color="#8cb6ce" meeting="false" start="2019-01-28" duration="6" complete="0" expand="true"/>
+        </task>
+        <task id="36" name="Recherche de proximité" meeting="false" start="2019-02-11" duration="21" complete="0" expand="true">
+            <task id="138" name="Twitter" color="#8cb6ce" meeting="false" start="2019-03-04" duration="6" complete="0" expand="true"/>
+            <task id="139" name="Instagram" color="#8cb6ce" meeting="false" start="2019-03-05" duration="1" complete="0" expand="true">
+                <notes><![CDATA[Impossible à implémenter voir doc]]></notes>
+            </task>
+            <task id="140" name="Wikipédia" color="#8cb6ce" meeting="false" start="2019-02-11" duration="19" complete="0" expand="true"/>
+        </task>
+        <task id="37" name="Mise en veille" meeting="false" start="2018-11-12" duration="56" complete="0" expand="false">
+            <task id="73" name="Recherche bloquer mise en veille" color="#8cb6ce" meeting="false" start="2018-11-12" duration="56" complete="0" priority="0" expand="true"/>
+        </task>
+        <task id="35" name="Documentation" color="#000000" meeting="false" start="2019-01-21" duration="34" complete="0" expand="true">
+            <task id="129" name="Rédiger la documentation" color="#8cb6ce" meeting="false" start="2019-01-21" duration="34" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Cécile" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Gregory" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Loïc" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Mohammed" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Xavier" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="6" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="70" resource-id="0" function="Default:0" responsible="true" load="80.0"/>
+        <allocation task-id="82" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="38" resource-id="0" function="Default:0" responsible="true" load="40.0"/>
+        <allocation task-id="102" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="106" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="108" resource-id="0" function="Default:0" responsible="true" load="60.0"/>
+        <allocation task-id="111" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="114" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="0" function="Default:0" responsible="true" load="70.0"/>
+        <allocation task-id="81" resource-id="0" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="131" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="135" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="144" resource-id="0" function="Default:0" responsible="false" load="70.0"/>
+        <allocation task-id="146" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="140" resource-id="0" function="Default:0" responsible="false" load="10.0"/>
+        <allocation task-id="129" resource-id="0" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="147" resource-id="0" function="Default:0" responsible="false" load="70.0"/>
+        <allocation task-id="162" resource-id="0" function="Default:0" responsible="false" load="55.0"/>
+        <allocation task-id="164" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="138" resource-id="0" function="Default:0" responsible="false" load="10.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="73" resource-id="1" function="Default:0" responsible="true" load="60.0"/>
+        <allocation task-id="81" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="99" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="38" resource-id="1" function="Default:0" responsible="true" load="40.0"/>
+        <allocation task-id="102" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="130" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="140" resource-id="1" function="Default:0" responsible="true" load="5.0"/>
+        <allocation task-id="129" resource-id="1" function="Default:0" responsible="false" load="70.0"/>
+        <allocation task-id="6" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="67" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="83" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="2" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="81" resource-id="2" function="Default:0" responsible="false" load="20.0"/>
+        <allocation task-id="144" resource-id="2" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="147" resource-id="2" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="140" resource-id="2" function="Default:0" responsible="false" load="80.0"/>
+        <allocation task-id="162" resource-id="2" function="Default:0" responsible="true" load="45.0"/>
+        <allocation task-id="138" resource-id="2" function="Default:0" responsible="true" load="90.0"/>
+        <allocation task-id="139" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="3" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="73" resource-id="3" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="78" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="108" resource-id="3" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="140" resource-id="3" function="Default:0" responsible="false" load="5.0"/>
+        <allocation task-id="6" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="4" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="70" resource-id="4" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="73" resource-id="4" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="129" resource-id="4" function="Default:0" responsible="true" load="10.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

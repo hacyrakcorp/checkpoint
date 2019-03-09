@@ -9,7 +9,7 @@ Ces modules sont présent dans le fichier package.json.
 On ne détaillera pas tous les modules utilisés. Seulement ceux en lien avec les fonctions principales de l'application.
 
 * `Camera` - Permet la gestion de photos. [Info](https://ionicframework.com/docs/native/camera)
-* `Geolocalisation` - Permet la gestion de la géolocalisation. [Info](https://ionicframework.com/docs/native/geolocation)
+* `Geolocation` - Permet la gestion de la géolocalisation. [Info](https://ionicframework.com/docs/native/geolocation)
 * `GoogleMaps` - Permet d'afficher une carte Google Maps. [Info](https://github.com/ionic-team/ionic-native-google-maps)
 * `Insomnia` - Permet de désactiver la mise en veille du téléphone. [Info](https://ionicframework.com/docs/native/insomnia)
 * `Media` - Permet d'enregistrer et d'écouter un enregistrement audio. [Info](https://ionicframework.com/docs/native/media)
